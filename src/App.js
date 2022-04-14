@@ -7,11 +7,13 @@ import Message from './components/Message';
 import FunctionClick from './components/FunctionClick';
 import ClassClicked from './components/ClassClicked';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <ParentComponent />
+      {/* <EventBind /> */}
       {/* <Message/>
       <Greet name="Osaretin"/>
       <Greet name="Victoria"/>
